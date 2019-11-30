@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.appsys.dao.DevUserDao">
+    <select id="Login" resultType="DevUser">
+        SELECT * FROM dev_user WHERE devCode=#{devCode} and devPassword=#{devPassword}
+    </select>
+
+    <select id="AppInfoList" resultType="AppInfo">
+          SELECT  info.softwareName ,info.APKName,info.softwareSize,
+  (SELECT valueName FROM data_dictionary AS dictionary WHERE info.flatformId=dictionary.valueid AND typeName='所属平台')AS flatformName,
+ (SELECT category.categoryName FROM app_category AS category WHERE category.id=info.categoryLevel1) AS categoryLevel1Name,
+ info.categoryLevel2,
+ (SELECT category.categoryName FROM app_category AS category WHERE category.id=info.categoryLevel2) AS categoryLevel2Name,
+ info.categoryLevel3,
+ (SELECT category.categoryName FROM app_category AS category WHERE category.id=info.categoryLevel3) AS categoryLevel3Name,
+ info.status,
+  (SELECT valueName FROM data_dictionary AS dictionary WHERE info.status=dictionary.valueid AND dictionary.typeCode="APP_STATUS") AS statusName,
+ info.downloads,
+ info.versionId,
+ (SELECT ver.versionNo FROM app_version AS ver WHERE info.versionId=ver.id )AS versionNo
+ FROM app_info AS info
+    </select>
+<!--    <select id="" resultType="">-->
+
+
+<!--    </select>-->
+</mapper>
+ 
