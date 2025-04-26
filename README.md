@@ -21,3 +21,13 @@
 🔟 数据统计：后台提供数据统计功能。
 
 📈 使用语言：后端Java+安卓和ios端分别为原生。
+
+需要源码或者细节方面的请联系telegrama：https://t.me/ye0902
+
+![3b231cbb927b64de6273e06ea49c256](https://github.com/user-attachments/assets/93d2b804-0a67-4f3a-8fab-7a9da84cd369)
+
+![dbdf415fa216c2802501348cccafd42](https://github.com/user-attachments/assets/ba15102e-c90d-4d9f-b6a7-57002e51fb89)
+
+![b8f692d9b018a21fdae521100eff34f](https://github.com/user-attachments/assets/8f6c545b-5587-4107-ae65-d4c0cdc4c985)
+
+
