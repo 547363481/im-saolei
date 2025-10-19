@@ -22,7 +22,7 @@
 
 📈 使用语言：后端Java+安卓和ios端分别为原生。
 
-需要源码或者细节方面的请联系telegrama：[https://t.me/ye0902](https://t.me/NyJUxaMxZED)
+需要源码或者细节方面的请联系telegrama：https://t.me/NyJUxaMxZED
 
 ![3b231cbb927b64de6273e06ea49c256](https://github.com/user-attachments/assets/93d2b804-0a67-4f3a-8fab-7a9da84cd369)
 
