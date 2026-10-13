@@ -25,6 +25,7 @@
 需要源码或者细节方面的请联系telegrama：https://t.me/NyJUxaMxZED
 
 ![3b231cbb927b64de6273e06ea49c256](https://github.com/user-attachments/assets/93d2b804-0a67-4f3a-8fab-7a9da84cd369)
+<img width="558" height="1168" alt="image" src="https://github.com/user-attachments/assets/f84970b0-394a-4d91-8a8b-568a5e39d788" />
 
 ![dbdf415fa216c2802501348cccafd42](https://github.com/user-attachments/assets/ba15102e-c90d-4d9f-b6a7-57002e51fb89)
 
